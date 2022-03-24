@@ -209,9 +209,6 @@ article .news_resume{
     flex-wrap: wrap; 
     gap: 30px 30px;
 }
-.widget_body desc{
-    margin-right: 20px;
-}
 .ads{
     flex: 1;
     background-color: #36a9e1;
@@ -264,7 +261,9 @@ footer{
     justify-content: center;
     margin-top: 30px;
 }
-footer_area
+.footer_area{
+    margin-left: 20px;
+}
 .footer_menu{
     display:flex;  
 }
@@ -297,6 +296,7 @@ footer .widget_title_text{
 }
 .footer_area_text{
     padding-right: 25px;
+    margin-left: 20px;
 }
 .footer_copy{
     border-top: 1px solid #2c2c2c;
@@ -322,7 +322,7 @@ footer a{
 }
 .footer_info_1{
     flex: 2;
-    
+    margin-left: 20px;
 }
 .footer_info_contacts{
     margin-top: 20px;
@@ -339,7 +339,7 @@ footer a{
 .social_network {
     display: flex;
     list-style: none;
-
+    margin-left: 20px;
 
 }
 .social_network img {
